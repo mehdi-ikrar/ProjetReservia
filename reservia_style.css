@@ -27,7 +27,7 @@ body{
 }
 nav .fas{
     color: black;
-    background-color:#f2f2f2;
+    background-coor:#f2f2f2;
     font-size: 0.6em;
     width: 100%;
 }
@@ -63,7 +63,6 @@ nav #filtres div{
 img{
     width: 50%;
 }
-
 
 figure{
     display: flex;
