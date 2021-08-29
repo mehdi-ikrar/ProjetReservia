@@ -12,14 +12,47 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+.onglet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search{ 
+    background-color:#0065FC;
+    color: white;
+    width: 24%;
+    border-radius: 5px;
+    font-size: 2em;
+    display: flex;
+}
+nav .fas{
+    color: black;
+    background-color:#f2f2f2;
+    font-size: 0.6em;
+    width: 100%;
+}
+
+#filtres{
+    display: flex;
+    justify-content: space-around;
+}
+nav #filtres div{
+    border: 1px solid;
+    border-radius: 50px;
+
+}
 #body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
-img{
-    width: 50%;
+
+#hebergemement{
+    background-color:#f2f2f2;
+    border-radius: 30px;
+    padding-left: 10px;
+    width: 100%;
 }
 #popular{
     background-color: #f2f2f2;
@@ -27,20 +60,11 @@ img{
     display: flex;
     flex-direction: column;
 }
-#onglet{
-    display: flex;
-    flex-direction: row;
+img{
+    width: 50%;
 }
-#main{
-    margin: 12px;
-    
-}
-#hebergemement{
-    background-color:#f2f2f2;
-    border-radius: 30px;
-    padding-left: 10px;
-    width: 100%;
-}
+
+
 figure{
     display: flex;
 }
