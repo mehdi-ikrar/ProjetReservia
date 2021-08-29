@@ -5,17 +5,44 @@
         url('static/Raleway-BlackItalic.ttf') url('Raleway-VariableFont_wght.ttf') url('Raleway-Italic-VariableFont_wght.ttf')
 }
 body{
-    margin: 0px;
-    padding: 0px;
-  
+      
+}
+#containeheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
+}
+img{
+    width: 50%;
+}
+#popular{
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#onglet{
+    display: flex;
+    flex-direction: row;
 }
 #main{
     margin: 12px;
-    background-color:brown
+    
 }
 #hebergemement{
     background-color:#f2f2f2;
+    border-radius: 30px;
+    padding-left: 10px;
+    width: 100%;
+}
+figure{
+    display: flex;
 }
 
 footer{
@@ -25,6 +52,3 @@ footer{
     background-color:#f2f2f2;
 }
 
-#imghebergemement{
-
-}
