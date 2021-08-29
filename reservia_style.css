@@ -1,3 +1,15 @@
-h3{
-    color: blue;
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('fonts/raleway-black.ttf'),
+        url('static/Raleway-BlackItalic.ttf') url('Raleway-VariableFont_wght.ttf') url('Raleway-Italic-VariableFont_wght.ttf')
+}
+body{
+    margin: 0px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-;
+    background-color:#f2f2f2;
 }
