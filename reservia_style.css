@@ -1,12 +1,14 @@
-@font-face
-{
-    font-family: 'Raleway';
-    src: url('fonts/raleway-black.ttf'),
-        url('static/Raleway-BlackItalic.ttf') url('Raleway-VariableFont_wght.ttf') url('Raleway-Italic-VariableFont_wght.ttf')
+html {
+    font-family: 'Raleway', sans-serif;
 }
-body{
-      
+body {
+  font-family: "Raleway", "Sans serif";
+  margin: 0;
 }
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
 #containeheader {
     display: flex;
     flex-direction: row;
@@ -17,61 +19,114 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-.search{ 
+
+/*------------------------------------*\
+  #NAV
+\*------------------------------------*/
+#search{ 
     background-color:#0065FC;
     color: white;
     width: 24%;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 2em;
     display: flex;
+    justify-content: flex-start
 }
+
 nav .fas{
     color: black;
-    background-coor:#f2f2f2;
     font-size: 0.6em;
     width: 100%;
 }
-
 #filtres{
     display: flex;
     justify-content: space-around;
 }
 nav #filtres div{
-    border: 1px solid;
-    border-radius: 50px;
-
+    border: 1px solid #f2f2f2;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+nav #filtres div i{
+    border-radius: 30px;
+    border: 1px solid;
+    font-size:2em;
+    background-color: rgb(222, 235, 255)
+}
+
+
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+
+#main {
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+
+
+/*------------------------------------*\
+  #SECTION
+\*------------------------------------*/
 #body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
-
 #hebergemement{
     background-color:#f2f2f2;
     border-radius: 30px;
-    padding-left: 10px;
-    width: 100%;
+    width: 68%;   
 }
+.figureimg img{
+    width : 30%;
+    height :30%;
+}
+
+.figureimg{
+    display: flex;
+    flex-direction: row ;
+}
+
+#activités{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*------------------------------------*\
+  #ASIDE
+\*------------------------------------*/
+
+
 #popular{
     background-color: #f2f2f2;
     border-radius: 30px;
-    display: flex;
-    flex-direction: column;
+    width: 30%;
 }
-img{
-    width: 50%;
+#popular img{
+    width: 30%;
+    border: 1px solid #ccc;
+    padding:8px;
+    background-color: white;
+    border-radius: 30px;    
 }
 
-figure{
-    display: flex;
-}
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
 
 footer{
     display: flex;
     justify-content: space-around;
-    align-content: flex-;
     background-color:#f2f2f2;
 }
-
+#footer{
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
