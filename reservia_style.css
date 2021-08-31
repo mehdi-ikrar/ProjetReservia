@@ -81,11 +81,6 @@ nav #filtres div i{
     
 }
 /*------------------------------------*\
-  #MAIN
-\*------------------------------------*/
-
-
-/*------------------------------------*\
   #SECTION
 \*------------------------------------*/
 #body{
@@ -114,30 +109,29 @@ nav #filtres div i{
     border-radius: 30px;  
 }
 #activités{
-    width : 100%;
-    height: 10%;    
+    max-width: 100%;
+    width : 100%;    
     
 }
 #activitésfigure{
     background-color:black;
     display: flex;
-    
-    
-     
-      
-    
+    justify-content: row;    
 }
 #activités img{
     border-radius: 30px;
     width: 100%;
-
-
+    border-bottom: 1px solid white;
 }
 #groupe1{
-    
-    
+    width: 16%;
 }
+#groupe2{
+    width: 16%;
+}
+.sousgroupe{
 
+}
 /*------------------------------------*\
   #ASIDE
 \*------------------------------------*/
@@ -176,7 +170,7 @@ footer{
     justify-content: space-around;
     background-color:#f2f2f2;
 }
-#footer{
+#foter{
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -8px;
