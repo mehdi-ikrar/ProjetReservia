@@ -3,7 +3,6 @@ html {
 }
 body {
   font-family: "Raleway", "Sans serif";
-  
 }
 #main {
     width: 95%;
@@ -76,8 +75,11 @@ nav #filtres div i{
     font-size:2em;
     background-color: rgb(222, 235, 255)
 }
-
-
+.info{
+    display: flex;
+    flex-direction: row;
+    
+}
 /*------------------------------------*\
   #MAIN
 \*------------------------------------*/
@@ -112,9 +114,28 @@ nav #filtres div i{
     border-radius: 30px;  
 }
 #activités{
-    background-color: blue;
+    width : 100%;
+    height: 10%;    
+    
+}
+#activitésfigure{
+    background-color:black;
     display: flex;
-    flex-wrap: wrap;
+    
+    
+     
+      
+    
+}
+#activités img{
+    border-radius: 30px;
+    width: 100%;
+
+
+}
+#groupe1{
+    
+    
 }
 
 /*------------------------------------*\
@@ -125,6 +146,7 @@ nav #filtres div i{
 #popular{
     background-color: #f2f2f2;
     border-radius: 30px;
+    border: 3px solid gray;
     width: 30%;
     height: 40%;
     display: flex;
@@ -136,8 +158,9 @@ nav #filtres div i{
     padding:8px;
     background-color: white;
     border-radius: 30px;
+    max-width: 93%;
     
-    
+
 }
 #contentpopular{
     display: flex;
