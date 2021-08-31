@@ -3,7 +3,11 @@ html {
 }
 body {
   font-family: "Raleway", "Sans serif";
-  margin: 0;
+  
+}
+#main {
+    width: 95%;
+    margin:auto;
 }
 /*------------------------------------*\
   #HEADER
@@ -13,13 +17,29 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
-.onglet{
+#onglet{
+    width: 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
+.logoimg {
+    width: 10%;
+}
+.hebe:hover{
+    text-decoration: underline;
 
+    
+}
+.acti{
+
+}
+.login{
+
+}
 /*------------------------------------*\
   #NAV
 \*------------------------------------*/
@@ -62,12 +82,6 @@ nav #filtres div i{
   #MAIN
 \*------------------------------------*/
 
-#main {
-    padding: 0 2rem;
-    box-sizing: border-box;
-}
-
-
 
 /*------------------------------------*\
   #SECTION
@@ -82,16 +96,21 @@ nav #filtres div i{
     border-radius: 30px;
     width: 68%;   
 }
-.figureimg img{
-    width : 30%;
-    height :30%;
-}
-
-.figureimg{
+#figureimg{
     display: flex;
-    flex-direction: row ;
+   
 }
-
+#figureimg img{
+  
+}
+.hebergemements{
+    width : 50%;
+    height :50%;
+    border: 1px solid brown;
+    padding: 12px;
+    background-color:white;
+    border-radius: 30px;  
+}
 #activités{
     background-color: blue;
     display: flex;
@@ -107,15 +126,24 @@ nav #filtres div i{
     background-color: #f2f2f2;
     border-radius: 30px;
     width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-#popular img{
-    width: 30%;
+.content{
     border: 1px solid #ccc;
     padding:8px;
     background-color: white;
-    border-radius: 30px;    
+    border-radius: 30px;
+    
+    
 }
-
+#contentpopular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 /*------------------------------------*\
   #FOOTER
 \*------------------------------------*/
