@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <div class="main">
+    <div id="main">
     <head>
         <meta charset="utf-8" />
         <script src="https://kit.fontawesome.com/b179d036df.js" crossorigin="anonymous"></script>
@@ -9,32 +9,34 @@
         <title>Reservia</title>
     </head>
     <body>
-        <div id="main">
-            <header>
-            <img class="logoimg" src="images/logo/Reservia@3x.png" alt="logo de reservia" title="logo de reservia" > </img> 
-            <div id="mettreennav">
+        <div class="main">
+            <nav> 
                 <ul>
                     <li class="hebe"><h3>Hebergements</h3></li>
                     <li class="hebe"><h3>Activités</h3></li>
-                    <li class="hebe"><h3>S'inscrire</h3></li>
+                    <li class="logins"><h3>S'inscrire</h3></li>
                 </ul>
-            </header>
+            </nav>
+            <header>
             
-            <nav >
-                <h1>Trouvez votre hebergements pour des vacances de reves</h1>
-                <h4>En plein centre ville ou en pleine nature</h4>
-                <div id="search"> <i class="fas fa-map-marker-alt"></i> <input type="search" placeholder="Marseille,France"> Rechercher</div>
-                <div id="filtres">    
-                    <h4>Flitres</h4>
-                    <div> <i class="fas fa-money-bill-wave"></i>Economique</div>
-                    <div> <i class="fas fa-child"></i>Famillial</div>
-                    <div> <i class="fas fa-heart"></i>Romantique</div>
-                    <div> <i class="fas fa-dog"></i>Animaux autorisé</div>
                 </div>
+                    <h1>Trouvez votre hebergements pour des vacances de reves</h1>
+                    <h4>En plein centre ville ou en pleine nature</h4>
+                    <div id="search"> <i class="fas fa-map-marker-alt"></i> <input type="search" placeholder="Marseille,France"> Rechercher</div>
+                    <div id="filtres">    
+                        <h4>Flitres</h4>
+                        <div> <i class="fas fa-money-bill-wave"></i>Economique</div>
+                        <div> <i class="fas fa-child"></i>Famillial</div>
+                        <div> <i class="fas fa-heart"></i>Romantique</div>
+                        <div> <i class="fas fa-dog"></i>Animaux autorisé</div>
+                </div> 
                 <div class="info">
                     <div><i class="fas fa-info-circle"></i></div>
                     <h4>Plus de 500 logements sont disponibles dans cette ville</h4>
                 </div>
+            </header>
+            
+                        
             </nav>
             <div id="body"> 
                 <section id="hebergemement">
@@ -55,13 +57,26 @@
                         <div><i class="fas fa-chart-line"></i></div>
                     </div>                        
                         <a href=".html"> 
-                            <div class="content">                            
+                            <div id="contentpopularimg">                            
                                 <img class="imgpopular" src="images/hebergements/4_small/hotel_soleil_du_matin.jpg" alt="" >
                                 <h3>Hôtel Le soleil du matin </h3>
+                                <h4>Nuit à partir de 128€</h4>
                             </div>
                         </a>
-                        <div class="content"><a href=".html"> <img src="images/hebergements/4_small/chambre_d'hote_aucoeurdel'eau.jpg" alt="">Au coeur de l'eau Chambres d'hotes </a></div>
-                        <div class="content"><a href=".html"> <img src="images/hebergements/4_small/hotel_bleu_blanc.jpg" alt="">Hôtel Tout bleu et blanc </a></div>
+                        <a href=".html">                            
+                            <div id="contentpopularimg"> 
+                                <img class="imgpopular" src="images/hebergements/4_small/chambre_d'hote_aucoeurdel'eau.jpg" alt="">
+                                <h3> Au coeur de l'eau Chambres d'hotes </h3>
+                                <h4>Nuit à partir de 128€</h4>
+                            </div>
+                        </a>
+                        <a href=".html">
+                            <div id="contentpopularimg">
+                                <img class="imgpopular" src="images/hebergements/4_small/hotel_bleu_blanc.jpg" alt="">
+                                <h3>Hôtel Tout bleu et blanc </h3>
+                                <h4>Nuit à partir de 128€</h4>
+                            </div>
+                        </a>
                 </aside>
             </div>
             <section>
@@ -82,18 +97,18 @@
         </div>
         
             <footer>
-                <div>
+                <div class="containefooter">
                     <h2>A propos</h2>
                     <h3>Fonctionnement du site</h3>
                     <h3>Condition generale de vente</h3>
                     <h3>Données et confidentialité</h3>
                 </div>
-                <div>
+                <div class="containefooter">
                     <h2>Nos hebergements</h2>
                     <h3>Charte qualité</h3>
                     <h3>Soumettre votre hotel</h3>
                 </div>
-                <div>
+                <div class="containefooter">
                     <h2>Assistance</h2>
                     <h3>Centre d'aide</h3>
                     <h3>Nous contacter</h3>
