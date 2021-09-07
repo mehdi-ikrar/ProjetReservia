@@ -2,14 +2,39 @@ html {
     font-family: 'Raleway', sans-serif;
 }
 body {
-  font-family: "Raleway", "Sans serif";
+    font-family: "Raleway", "Sans serif";
+    
 }
 #main {
-    width: 95%;
+    width: 1440px;
     margin:auto;
 }
 .fas{
-    color:red;    
+    color:blue;
+}
+
+/*------------------------------------*\
+  #NAV
+\*------------------------------------*/
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.hebe{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5em;
+}
+.logins{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5em;
+
+}
+.hebe:hover{
+    text-decoration: overline
+    padding;
 }
 /*------------------------------------*\
   #HEADER
@@ -31,26 +56,17 @@ header {
 .logoimg {
     width: 10%;
 }
-.hebe:hover{
-    text-decoration: underline;
-
-    
-}
-
-/*------------------------------------*\
-  #NAV
-\*------------------------------------*/
 #search{ 
     background-color:#0065FC;
     color: white;
     width: 24%;
     border-radius: 10px;
-    font-size: 2em;
+    font-size: 32px;
     display: flex;
     justify-content: flex-start
 }
 
-nav .fas{
+header .fas{
     color;
     font-size: 0.6em;
     width: 100%;
@@ -59,7 +75,7 @@ nav .fas{
     display: flex;
     justify-content: space-around;
 }
-nav #filtres div{
+header #filtres div{
     border: 1px solid #f2f2f2;
     border-radius: 30px;
     display: flex;
@@ -67,7 +83,7 @@ nav #filtres div{
     justify-content: center;
     align-items: center;
 }
-nav #filtres div i{
+header #filtres div i{
     border-radius: 30px;
     border: 1px solid;
     font-size:2em;
@@ -145,14 +161,12 @@ nav #filtres div i{
     flex-direction: column;
     justify-content: space-between;
 }
-.content{
+#contentpopularimg{
     border: 1px solid #ccc;
     padding:8px;
     background-color: white;
     border-radius: 30px;
-    max-width: 93%;
-    
-
+    display: flex;
 }
 .imgpopular{
     max-width: 100%;
