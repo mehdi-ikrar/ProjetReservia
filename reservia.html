@@ -10,29 +10,49 @@
     </head>
     <body>
         <div class="main">
-            <nav> 
+            <nav>
                 <ul>
-                    <li class="hebe"><h3>Hebergements</h3></li>
-                    <li class="hebe"><h3>Activités</h3></li>
-                    <li class="logins"><h3>S'inscrire</h3></li>
+                    <li class="tab"><h3>Hebergements</h3></li>
+                    <li class="tab"><h3>Activités</h3></li>
+                    <li class="login"><h3>S'inscrire</h3></li>
                 </ul>
             </nav>
             <header>
-            
-                </div>
                     <h1>Trouvez votre hebergements pour des vacances de reves</h1>
                     <h4>En plein centre ville ou en pleine nature</h4>
-                    <div id="search"> <i class="fas fa-map-marker-alt"></i> <input type="search" placeholder="Marseille,France"> Rechercher</div>
-                    <div id="filtres">    
-                        <h4>Flitres</h4>
-                        <div> <i class="fas fa-money-bill-wave"></i>Economique</div>
-                        <div> <i class="fas fa-child"></i>Famillial</div>
-                        <div> <i class="fas fa-heart"></i>Romantique</div>
-                        <div> <i class="fas fa-dog"></i>Animaux autorisé</div>
-                </div> 
+                    <div id="search"> 
+                        <i class="fas fa-map-marker-alt"></i> 
+                        <input type="search" placeholder="Marseille,France"> 
+                        Rechercher
+                    </div>
+                    <div id="filter">    
+                        <div>
+                            <h4>Flitres</h4>
+                        </div>
+                        <div> 
+                            <i class="fas fa-money-bill-wave"></i>
+                            Economique                            
+                        </div>
+                        <div> 
+                            <i class="fas fa-child"></i>
+                            Famillial
+                        </div>
+                        <div> 
+                            <i class="fas fa-heart"></i>
+                            Romantique
+                        </div>
+                        <div> 
+                            <i class="fas fa-dog"></i>
+                            Animaux autorisé
+                        </div>
+                    </div>
                 <div class="info">
-                    <div><i class="fas fa-info-circle"></i></div>
-                    <h4>Plus de 500 logements sont disponibles dans cette ville</h4>
+                    <div>
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <h4>
+                        Plus de 500 logements sont disponibles dans cette ville
+                    </h4>
                 </div>
             </header>
             
@@ -41,42 +61,72 @@
             <div id="body"> 
                 <section id="hebergemement">
                         <h2>hebergements a Marseille</h2>
-                    <figure id="figureimg">
-                        <div class="hebergements"><a href=".html"> <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=""> </a>
-                        <div class="hebergements"><a href=".html"> <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt=""> </a>
-                        <div class="hebergements"><a href=".html"> <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt=""> </a>
-                        <div class="hebergements"><a href=".html"> <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt=""> </a>
-                        <div class="hebergements"><a href=".html"> <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=""> </a>
-                        <div class="hebergements"><a href=".html"> <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt=""> </a>
+                    <figure> 
+                        <div id="HBfigure1">
+                            <div class="hebergements">
+                                <a href=".html"> 
+                                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=""> 
+                                </a>
+                            </div>
+                            <div class="hebergements">
+                                <a href=".html">
+                                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt=""> 
+                                </a>
+                            </div>
+                            <div class="hebergements">
+                                <a href=".html">
+                                    <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div id="HBfigure2">
+                            <div class="hebergements">
+                                <a href=".html">
+                                    <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="hebergements">
+                                <a href=".html">
+                                    <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="hebergements">
+                                <a href=".html">
+                                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </figure>
                     <p>Afficher plus</p>
                 </section>
+
+
                 <aside id="popular">
-                    <div id="contentpopular">
+                    <div id="titlepopular">
                         <h2>Les plus populaires</h2>
-                        <div><i class="fas fa-chart-line"></i></div>
-                    </div>                        
-                        <a href=".html"> 
-                            <div id="contentpopularimg">                            
-                                <img class="imgpopular" src="images/hebergements/4_small/hotel_soleil_du_matin.jpg" alt="" >
-                                <h3>Hôtel Le soleil du matin </h3>
-                                <h4>Nuit à partir de 128€</h4>
-                            </div>
+                        <i class="fas fa-chart-line"></i>
+                    </div>                       
+                    <div id="contentpopularimg">
+                        <a href=".html">                             
+                            <img class="imgpopular" src="images/hebergements/4_small/hotel_soleil_du_matin.jpg" alt="" >
+                            <h3>Hôtel Le soleil du matin </h3>
+                            <h4>Nuit à partir de 128€</h4>
                         </a>
-                        <a href=".html">                            
-                            <div id="contentpopularimg"> 
-                                <img class="imgpopular" src="images/hebergements/4_small/chambre_d'hote_aucoeurdel'eau.jpg" alt="">
-                                <h3> Au coeur de l'eau Chambres d'hotes </h3>
-                                <h4>Nuit à partir de 128€</h4>
-                            </div>
-                        </a>
+                    </div>      
+                    <div id="contentpopularimg">
+                        <a href=".html">  
+                            <img class="imgpopular" src="images/hebergements/4_small/chambre_d'hote_aucoeurdel'eau.jpg" alt="">
+                            <h3> Au coeur de l'eau Chambres d'hotes </h3>
+                            <h4>Nuit à partir de 128€</h4>
+                        </a>    
+                    </div>
+                    <div id="contentpopularimg">
                         <a href=".html">
-                            <div id="contentpopularimg">
-                                <img class="imgpopular" src="images/hebergements/4_small/hotel_bleu_blanc.jpg" alt="">
-                                <h3>Hôtel Tout bleu et blanc </h3>
-                                <h4>Nuit à partir de 128€</h4>
-                            </div>
+                            <img class="imgpopular" src="images/hebergements/4_small/hotel_bleu_blanc.jpg" alt="">
+                            <h3>Hôtel Tout bleu et blanc </h3>
+                            <h4>Nuit à partir de 128€</h4>
                         </a>
+                    </div>
                 </aside>
             </div>
             <section>
