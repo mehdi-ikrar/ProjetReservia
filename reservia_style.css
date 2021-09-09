@@ -6,7 +6,7 @@ body {
     
 }
 #main {
-    width: 1440px;
+    max-width: 1600px ;
     margin:auto;
 }
 .fas{
@@ -16,35 +16,36 @@ body {
 /*------------------------------------*\
   #NAV
 \*------------------------------------*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px; 
+}
+.logo{
+    height: 100%;
+}
 ul{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 30%;
 }
-.hebe{
-    display: flex;
-    flex-direction: row;
-    padding-left: 4.5em;
+.tab:hover{
+    border-top: 4px solid blue;
 }
-.logins{
-    display: flex;
-    flex-direction: row;
-    padding-left: 4.5em;
 
-}
-.hebe:hover{
-    text-decoration: overline
-    padding;
-}
 /*------------------------------------*\
   #HEADER
 \*------------------------------------*/
 
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    margin-top: 40px;
 }
 #onglet{
     width: 20%;
@@ -66,28 +67,10 @@ header {
     justify-content: flex-start
 }
 
-header .fas{
-    color;
-    font-size: 0.6em;
-    width: 100%;
-}
-#filtres{
+#filter{
     display: flex;
     justify-content: space-around;
-}
-header #filtres div{
-    border: 1px solid #f2f2f2;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-}
-header #filtres div i{
-    border-radius: 30px;
-    border: 1px solid;
-    font-size:2em;
-    background-color: rgb(222, 235, 255)
 }
 .info{
     display: flex;
@@ -95,7 +78,7 @@ header #filtres div i{
     
 }
 /*------------------------------------*\
-  #SECTION
+  #SECTION HEBERGEMENTS
 \*------------------------------------*/
 #body{
     display: flex;
@@ -105,23 +88,61 @@ header #filtres div i{
 #hebergemement{
     background-color:#f2f2f2;
     border-radius: 30px;
-    width: 68%;   
-}
-#figureimg{
+    width: 68%;
     display: flex;
-   
+    flex-direction: column;
 }
-#figureimg img{
-  
+.HBarticle{
+    width: 30%;
+    
+    
 }
-.hebergemements{
-    width : 50%;
-    height :50%;
-    border: 1px solid brown;
-    padding: 12px;
-    background-color:white;
-    border-radius: 30px;  
+#figure1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    height: 100%;
 }
+
+.imgHB{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/*------------------------------------*\
+  #ASIDE
+\*------------------------------------*/
+
+
+aside{
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    border: 3px solid gray;
+    width: 30%;
+    height: 40%;
+}
+#titlepopular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentpopularimg{
+    border: 1px solid #ccc;
+    padding:8px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+.imgpopular{
+    max-width: 40%;
+}
+
+/*------------------------------------*\
+  #SECTION activité
+\*------------------------------------*/
 #activités{
     background-color:red;
     max-width: 100%;
@@ -147,36 +168,6 @@ header #filtres div i{
 
 }
 /*------------------------------------*\
-  #ASIDE
-\*------------------------------------*/
-
-
-#popular{
-    background-color: #f2f2f2;
-    border-radius: 30px;
-    border: 3px solid gray;
-    width: 30%;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-#contentpopularimg{
-    border: 1px solid #ccc;
-    padding:8px;
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-}
-.imgpopular{
-    max-width: 100%;
-}
-#contentpopular{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-/*------------------------------------*\
   #FOOTER
 \*------------------------------------*/
 
@@ -184,7 +175,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color:#f2f2f2;
-    margin-bottom: -10px;
-    margin-left: -10px;
-    margin-right: -8px;
+    margin-bottom: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
 }
