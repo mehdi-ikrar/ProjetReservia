@@ -41,7 +41,7 @@ ul{
   #HEADER
 \*------------------------------------*/
 
-header {
+header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,14 +69,34 @@ header {
 
 #filter{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    
+}
+
+.underfilters{
+    border: 3px solid #DEEBFF;
+    border-radius: 20px;
+    margin-right: 130px;
+    position: relative;
+    left: 20px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 30px;
+}
+.underfilters .fas{
+    border-radius: 500px ;
+    background-color: #DEEBFF;
+    padding: 5px;
+    margin-left: -2px;
+    
 }
 .info{
     display: flex;
     flex-direction: row;
-    
 }
+
 /*------------------------------------*\
   #SECTION HEBERGEMENTS
 \*------------------------------------*/
