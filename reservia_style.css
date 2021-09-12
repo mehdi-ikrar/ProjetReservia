@@ -50,7 +50,6 @@ h1{
     width: 10%;
 }
 #search{ 
-
     color: white;
     border-radius: 20px;
     display: flex;
@@ -253,43 +252,64 @@ aside{
   #SECTION activity
 \*------------------------------------*/
 .activity{
-    width: 100%;
-    height: 1000px;
     display: flex;
     flex-direction: column;
+    height: 600px;
+    margin-top: 30px;
     
 }
 .activityfigure{
     display: flex;
-    height: 73%;
+    height: 90%;
     width: 100%;
-    margin: auto;
-
-}
-.imgactivity{
-    border-radius: 30px;
-    width: 100%;
-    height: 300px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    background-color: red;
 }
 .groupe1{
     display: flex;
     flex-direction: column;
-    background-color: #0065FC;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 10px;
+    height: 50%;
+    background-color: yellow;
 }
 .groupe2{
     display: flex;
     flex-direction: column;
-    background-color: #0065FC;
-
+    width: 100%;
+    heiht: max-content;
+    background-color: yellow;
 }
-.contentactivity{
+.soloactivity{
     border-bottom: 4px solid firebrick;
     border-radius: 30px;
     margin-right: 40px;
-    
     width: 100%;
-    position: relative;
-    bottom: 120px;
+    
+}
+.sousgroupe11{
+    width: 100%;
+    height: 80%;
+}
+.sousgroupe12{
+    width: 100%;
+    height: 60%;
+}
+.sousgroupe21{
+    width: 100%;
+    height: 100%;
+}
+.sousgroupe22{
+    height:;
+}
+
+.imgactivity{
+    border-radius: 30px;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
 }
 
 /*------------------------------------*\
@@ -302,5 +322,6 @@ footer{
     width: 100%;
     position: absolute;
     left: 0px;
+    margin-top: 72px;    
 
 }
