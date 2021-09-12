@@ -9,6 +9,7 @@ html {
 .fas{
     color:blue;
 }
+
 /*------------------------------------*\
   #NAV
 \*------------------------------------*/
@@ -112,9 +113,10 @@ input{
     height: 40px;
     padding-right: 25px;
     font-size: 25px;
+    
 }
 .underfilters .fas{
-    border-radius: 500px ;
+    border-radius: 50px ;
     background-color: #DEEBFF;
     padding: 5px;
     margin-left: -3px;
@@ -125,6 +127,9 @@ input{
     align-items: center;
     justify-content: center;
 }
+a:visited{
+    color: black;
+}
 .underfilters p{
     font-weight: bold;
 }
@@ -134,30 +139,28 @@ input{
     margin-bottom: 25px;
 }
 .infoicons{
-     font-size: 20px;
+    font-size: 20px;
     border-radius: 50px;
-    height: 15px;
+    height: 18px;
     width: 14px;
     font-size: 1.2em;
     display: flex;
     align-items: center;
-    background-color: blue;
+    background-color:blue ;
     display: flex;
     align-self: center;
-    
 }
 .infotext{
     padding-left: 15px;
-
 }
 .infoicons .fas {
-    color: white;
-    border: 0.5px solid #f2f2f2;
+    color:white;
+    border: 2px solid #f2f2f2;
     border-radius: 50px;
     font-size: 1em;
     position: relative;
-    right: 4px;
-    
+    right: 10px;
+    font-size: 30px;
 }
 
 /*------------------------------------*\
@@ -172,33 +175,32 @@ input{
     background-color:#f2f2f2;
     border-radius: 30px;
     width: 68%;
+    height: 675px;
     display: flex;
     flex-direction: column; 
-
 }
 .HBtitle{
     padding-left: 50px;
 }
 .HBmore{
     padding-left: 50px;
-    text-decoration: underline;
+    margin-top: -25px;
+    font-weight: bold;
 }
 .HBarticle{
     width: 27%;
-    height: 30%;
+    height: 40%;
     background-color: white;
     border-radius: 30px;
     padding: 5px;
-    margin-right: 45px;
-    
-    
+    margin-right: 45px;  
 }
 #figure1{
     width: 100%;
+    height: 78%;
     display: flex;
     flex-wrap: wrap;
-
-    
+    justify-content: center;
 }
 .imgHB{
     width: 100%;
@@ -207,6 +209,7 @@ input{
     border-top-left-radius: 30px ;
     border-top-right-radius: 30px ;
 }
+
 /*------------------------------------*\
   #ASIDE
 \*------------------------------------*/
@@ -243,37 +246,52 @@ aside{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     display: flex;
-}
-.infopopular{
-    margin-left: 15px ;
+    object-fit: cover;
 }
 
 /*------------------------------------*\
-  #SECTION activité
+  #SECTION activity
 \*------------------------------------*/
-#activités{
-    background-color:red;
-    max-width: 100%;
-}
-#activitésfigure{
-    background-color:black;
+.activity{
+    width: 100%;
+    height: 1000px;
     display: flex;
-    justify-content: row;
-    width: 50%;    
+    flex-direction: column;
+    
 }
-#activités img{
+.activityfigure{
+    display: flex;
+    height: 73%;
+    width: 100%;
+    margin: auto;
+
+}
+.imgactivity{
     border-radius: 30px;
     width: 100%;
-    border-bottom: 1px solid white;
+    height: 300px;
 }
-#groupe1{
-    width: 16%;
+.groupe1{
+    display: flex;
+    flex-direction: column;
+    background-color: #0065FC;
 }
-#groupe2{
-    width: 16%;
+.groupe2{
+    display: flex;
+    flex-direction: column;
+    background-color: #0065FC;
+
 }
-.sousgroupe{
+.contentactivity{
+    border-bottom: 4px solid firebrick;
+    border-radius: 30px;
+    margin-right: 40px;
+    
+    width: 100%;
+    position: relative;
+    bottom: 120px;
 }
+
 /*------------------------------------*\
   #FOOTER
 \*------------------------------------*/
@@ -282,4 +300,7 @@ footer{
     justify-content: space-around;
     background-color:#f2f2f2;
     width: 100%;
+    position: absolute;
+    left: 0px;
+
 }
