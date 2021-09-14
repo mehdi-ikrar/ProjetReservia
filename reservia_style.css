@@ -218,6 +218,12 @@ a:link{
     padding-left: 50px;
     margin-top: -25px;
     font-weight: bold;
+    text-decoration: underline black;
+
+}
+.HBmore p{
+    color: black;
+    
 }
 .HBarticle{
     width: 27%;
@@ -359,6 +365,10 @@ aside{
     height: 97%;
     box-shadow: 0 0 16px #0000002e;
 }
+.soloactivity:hover{
+    width: 81%;
+    height: 98%;
+}
 .soloactivity2{
     box-shadow: 2px 2px 2px #f2f2f2;
     border-radius: 30px;
@@ -371,26 +381,46 @@ aside{
     height: 97%;
     box-shadow: 0 0 16px #0000002e;
 }
+.soloactivity2:hover{
+    width: 87%;
+    height: 98%;
+}
 
 .sousgroupe11{
     box-shadow: 2px 2px 2px #f2f2f2;
     border-radius: 30px;
     box-shadow: 0 0 16px #0000002e;
 }
+.sousgroupe11:hover{
+    width: 101%;
+    height: 95%;
+}
 .sousgroupe12{
     box-shadow: 2px 2px 2px #f2f2f2;
     border-radius: 30px;
     box-shadow: 0 0 16px #0000002e;
+}
+.sousgroupe12:hover{
+    width: 101%;
+    height: 94%;
 }
 .sousgroupe21{
     box-shadow: 2px 2px 2px #f2f2f2;
     border-radius: 30px;
     box-shadow: 0 0 16px #0000002e;   
 }
+.sousgroupe21:hover{
+    width: 101%;
+    height: 94%;
+}
 .sousgroupe22{
     box-shadow: 2px 2px 2px #f2f2f2;
     border-radius: 30px;
     box-shadow: 0 0 16px #0000002e;
+}
+.sousgroupe22:hover{
+    width: 101%;
+    height: 95%;
 }
 
 
@@ -399,19 +429,20 @@ aside{
     border-top-left-radius: 30px;
     width: 100%;
     height: 90%;
-    object-fit: cover;  
+    object-fit: cover;
+    margin-bottom: 6px; 
 }
+
 .imggroupe11{
     width: 100%;
-    height: 270px;
+    height: 230px;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     object-fit: cover;
-    
 }
 .imggroupe12{
     width: 100%;
-    height: 170px;
+    height: 180px;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     object-fit: cover;
@@ -419,29 +450,38 @@ aside{
 
 .imggroupe21{
     width: 100%;
-    height: 180px;
+    height: 190px;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     object-fit: cover;
 }
 .imggroupe22{
     width: 100%;
-    height: 230px;
+    height: 220px;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     object-fit: cover;
 }
-.groupe1 h3{
-    margin-op: 35px;
-    padding-left: ;
-}
+
 .titleactivity{
     margin-bottom: 25px;
 }
 .activitydescription{
     position: relative;
     left: 15px;
+    bottom: 3px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
+.GRPactivitydescription{
+    position: relative;
+    left: 15px;
+    bottom: 15PX;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
 /*------------------------------------*\
   #FOOTER
 \*------------------------------------*/
@@ -457,4 +497,8 @@ footer{
 .containefooter{
     position: relative;
     right: 130px;
+}
+.containefooter p{
+    color: black;
+    font-size: 1.1em;
 }
