@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1"> -
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/b179d036df.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="reservia_style.css"/>
         <link rel="icon" href="images/logo/Reservia.svg" type="image/gif">
@@ -13,8 +13,10 @@
             <nav>
                 <img class="logo" src="images/logo/logo_Reservia.png" alt="">
                 <ul>
-                    <li class="tab"><h3>Hebergements</h3></li>
-                    <li class="tab"><h3>Activités</h3></li>
+                    <div class="navigation">
+                        <li class="tab"><h3>Hebergements</h3></li>
+                        <li class="tab"><h3>Activités</h3></li>
+                    </div>                    
                     <li class="login"><h3>S'inscrire</h3></li>
                 </ul>
             </nav>
@@ -27,7 +29,7 @@
                     </div> 
                     <input type="search" placeholder="Marseille,France"> 
                     <div class="searchbutton">
-                        <a hef="".html>
+                        <a hef="#">
                             <p>Rechercher</p>
                         </a>
                     </div>
@@ -35,25 +37,25 @@
                 <div id="filter">     
                         <h4><span class="titlesfilter">Filtres</span></h4>
                     <div class="under">
-                        <a href="">
+                        <a href="#">
                             <div class="underfilters">
                                 <i class="fas fa-money-bill-wave"></i>
                                 <p>Economique</p>                          
                             </div>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <div class="underfilters"> 
                                 <i class="fas fa-child"></i>
                                 <p>Famillial</p>
                             </div>
                         </a>
-                        <a href="">                         
+                        <a href="#">                         
                             <div class="underfilters"> 
                                 <i class="fas fa-heart"></i>
                                 <p>Romantique</p>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <div class="underfilters"> 
                                 <i class="fas fa-dog"></i>
                                 <p>Animaux autorisé</p>
@@ -74,13 +76,13 @@
                         
             
             <div id="body"> 
-                <section id="hebergemement">
+                <section id="hebergement">
                     <div class="HBtitle">
                         <h2>Hebergements a Marseille</h2>
                     </div>
                     <figure id="figure1">
                         <div class="HBarticle">
-                            <a href=".html"> 
+                            <a href="#"> 
                                 <img class="imgHB" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
                                 <div class="infoHB">
                                     <h3>Auberge de la cannebiere</h3>
@@ -93,14 +95,16 @@
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
+                                            <div class="starsempty">
+                                                <li><i class="fas fa-star"></i></li>
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="HBarticle">
-                            <a href=".html">
+                            <a href="#">
                                 <img class="imgHB" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
                                 <div class="infoHB">
                                     <h3>Hotel du port</h3>
@@ -119,7 +123,7 @@
                                 </div>
                         </div>
                         <div class="HBarticle">
-                            <a href=".html">
+                            <a href="#">
                                 <img class="imgHB" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
                                 <div class="infoHB">
                                     <h3>Hôtel des mouettes</h3>
@@ -132,14 +136,16 @@
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
+                                            <div class="starsempty">
+                                                <li><i class="fas fa-star"></i></li>
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="HBarticle">
-                            <a href=".html">
+                            <a href="#">
                                 <img class="imgHB" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
                                 <div class="infoHB">
                                     <h3>Auberge de la mere</h3>
@@ -151,15 +157,19 @@
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
+                                            <div class="starsempty">
+                                                <li><i class="fas fa-star"></i></li>
+                                            </div>
+                                            <div class="starsempty">
+                                                <li><i class="fas fa-star"></i></li>
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="HBarticle">
-                            <a href=".html">
+                            <a href="#">
                                 <img class="imgHB" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
                                 <div class="infoHB">
                                     <h3>Auberge le Panier</h3>
@@ -172,13 +182,15 @@
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
+                                            <div class="starsempty">
+                                                <li><i class="fas fa-star"></i></li>
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>
                         </div>
                         <div class="HBarticle">
-                            <a href=".html">
+                            <a href="#">
                                 <img class="imgHB" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
                                 <div class="infoHB">
                                     <h3>Hotel ches Amina</h3>
@@ -199,7 +211,7 @@
                         </div>
                     </figure>
                     <div class="HBmore">
-                        <a href="">
+                        <a href="#">
                             <p>Afficher plus</p>
                         </a>
                     </div>
@@ -213,7 +225,7 @@
                     </div>
 
                     <div class="contentpopular">
-                        <a href=".html">
+                        <a href="#">
                             <div class="contentpopularimg">
                                 <img class="imgpopular" src="images/hebergements/4_small/hotel_soleil_du_matin.jpg" alt="" >
                                 <div class="infopopular">
@@ -237,7 +249,7 @@
                         </a>
                     </div>      
                     <div>
-                        <a href=".html">
+                        <a href="#">
                             <div class="contentpopularimg">  
                                 <img class="imgpopular" src="images/hebergements/4_small/chambre_d'hote_aucoeurdel'eau.jpg" alt="">
                                 <div class="infopopular">
@@ -253,7 +265,9 @@
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
+                                            <div class="starsempty">
+                                                <li><i class="fas fa-star"></i></li>
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>
@@ -261,7 +275,7 @@
                         </a>    
                     </div>
                     <div>
-                        <a href=".html">
+                        <a href="#">
                             <div class="contentpopularimg">
                                 <img class="imgpopular" src="images/hebergements/4_small/hotel_bleu_blanc.jpg" alt="">
                                 <div class="infopopular">
@@ -277,7 +291,9 @@
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
                                             <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
+                                            <div class="starsempty">
+                                                <li><i class="fas fa-star"></i></li>
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>
@@ -290,7 +306,7 @@
             <section class="activity">
                 <div class="titleactivity"><h2> Activitées a Marseille</h2></div>
                 <figure class="activityfigure">
-                    <a href=".html"> 
+                    <a href="#"> 
                         <div class="soloactivity">
                             <img class="imgactivity" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
                             <div class="activitydescription">
@@ -299,7 +315,7 @@
                         </div>
                     </a>            
                     <div class="groupe1">
-                        <a href=".html"> 
+                        <a href="#">                            
                             <div class="sousgroupe11">                            
                                 <img class="imggroupe11" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
                                 <div class="GRPactivitydescription">
@@ -307,7 +323,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href=".html">
+                        <a href="#">
                             <div class="sousgroupe12">
                                 <img class="imggroupe12" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
                                 <div class="GRPactivitydescription">
@@ -316,7 +332,7 @@
                             </div>
                         </a>
                     </div>
-                    <a href=".html">
+                    <a href="#">
                         <div class="soloactivity2">
                             <img class="imgactivity" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
                             <div class="activitydescription">
@@ -325,7 +341,7 @@
                         </div>
                     </a>                    
                     <div class="groupe2">
-                        <a href=".html">
+                        <a href="#">
                             <div class="sousgroupe21"> 
                                 <img class="imggroupe21" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
                                 <div class="GRPactivitydescription">
@@ -333,7 +349,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href=".html">
+                        <a href="#">
                             <div class="sousgroupe22">
                                 <img class="imggroupe22" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
                                 <div class="GRPactivitydescription">
@@ -350,17 +366,17 @@
             <div class="containefooter">
                 <h2>A propos</h2>
                 <div>
-                    <a href="">
+                    <a href="#">
                         <p>Fonctionnement du site</p>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="#">
                         <p>Condition generale de vente</p>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="#">
                         <p>Données et confidentialité</p>
                     </a>
                 </div>               
@@ -370,7 +386,7 @@
                     <h2>Nos hebergements</h2>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="#">
                         <p>Charte qualité</p>
                     </a>
                 </div>
@@ -385,12 +401,12 @@
                     <h2>Assistance</h2>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="#">
                         <p>Centre d'aide</p>
                     </a>
                 </div>
                 <div>
-                    <a href="">               
+                    <a href="#">               
                         <p>Nous contacter</p>
                     </a>
                 </div>     
