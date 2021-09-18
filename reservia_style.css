@@ -234,12 +234,6 @@ a:link{
     display: flex;
     flex-direction: column; 
 }
-@media only screen and (max-width: 376px)
-{
-    #hebergement{
-        background-color: white;
-    }
-}
 
 .HBtitle{
     padding-left: 50px;
@@ -268,11 +262,7 @@ a:link{
     box-shadow: 0 0 16px blue;
 
 }
-.HBarticle:hover{
 
-
-
-}
 .infoHB{
     position: relative;
     bottom:15px;
@@ -301,11 +291,43 @@ a:link{
     border-top-left-radius: 30px ;
     border-top-right-radius: 30px ;
 }
-.starsHB{
-    position: relative;
-    bottom: ;
-}
-
+@media only screen and (max-width: 376px)
+ { 
+    #hebergement{
+        border-radius: 30px;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        background-color: white;
+    }
+    #figure1{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .HBarticle{
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .imgHB{
+        height: 100px;
+    }
+    .HBtitle{
+        margin-left: -30px;
+    }
+    .HBmore{
+        margin-top: 60px;
+        margin-left: -30px ;
+    }
+ }
 /*------------------------------------*\
   #ASIDE
 \*------------------------------------*/
@@ -319,13 +341,7 @@ aside{
     justify-content: space-between;
     padding-bottom: 25px;
 }
-@media only screen and (max-width: 376px)
- {
-    aside{
-        width: 100%;
-        border-radius: 0px;
-    }
- }
+
 #titlepopular{
     display: flex;
     flex-direction: row;
@@ -335,6 +351,9 @@ aside{
     align-items: center;
 }
 @media only screen and (max-width: 376px)
+ {
+     #titlespopular
+ }
 .contentpopularimg{ 
     padding: 5px;
     background-color: white;
@@ -367,6 +386,21 @@ aside{
     display: flex;
     object-fit: cover;
 }
+@media only screen and (max-width: 376px)
+ {
+    aside{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .starscontent1{
+        position: relative;
+        top: 0px;
+    }
+    .starscontent2{
+        position: relative;
+        top: -15px;
+    }
+ }
 
 /*------------------------------------*\
   #SECTION activity
@@ -382,13 +416,7 @@ aside{
     width: 100%;
     margin-left: 0px;
 }
-@media only screen and (max-width: 376px)
- {
-    .activityfigure{
-        display: flex;
-        flex-direction: column;
-    }
- }
+
 .groupe1{
     height: 574px;
     width: 600px;
@@ -524,6 +552,69 @@ aside{
     font-weight: bold;
     font-size: 1.1em;
 }
+@media only screen and (max-width: 376px)
+ {
+    .activityfigure{
+        display: flex;
+        flex-direction: column;
+    }
+    .activity{
+        width: 375px;
+        margin-top: -90px;
+        margin-left: 15px;
+    }
+    .soloactivity{
+        width: 92%;
+        height: 180px;
+    }
+    .imgactivity{
+        width: 100%;
+        height: 75%;
+    }
+    .soloactivity2{
+        width: 91%;
+        margin-top: -115px;
+        margin-left: -20px;
+        height: 180px;
+    }
+    .sousgroupe11{
+        margin-top: 35px;
+        margin-left: 30px;
+        width: 57%;
+        height: 180px;
+    }
+    .imggroupe11{
+        height: 75%;
+    }
+    .sousgroupe12{
+        margin-bottom: 150px;
+        margin-left: 30px;
+        width: 57%;
+        height: 180px;
+    }
+    .imggroupe12{
+        height: 75%;
+    }
+    .sousgroupe21{
+        width: 340px;
+        height: 180px;
+        margin-top: 35px;
+    }
+    .imggroupe21{
+        height: 75%;
+    }
+    .sousgroupe22{
+        margin-top: 35px;
+        width: 340px;
+        height: 180px;
+    }
+    .imggroupe22{
+        height: 75%;
+    }
+    .titleactivity{
+        padding-bottom: 20px;
+    }
+ }
 
 /*------------------------------------*\
   #FOOTER
@@ -550,6 +641,7 @@ footer{
     footer{
         display: flex;
         flex-direction: column;
+        margin-top: 850px;
     }
     .containefooter{
         position: relative;
@@ -586,10 +678,6 @@ footer{
     #search{
         width:% ;
     }
-    
-    #hebergement{ 
-        width: 100%;  
-    }
     #filter{
         display: flex;
         flex-direction: column;
@@ -611,24 +699,7 @@ footer{
         width: 93%;
         border-bottom:1px solid blue;
     }
-    #hebergement{
-        border-radius: 30px;
-        width: 100%;
-        height: 1000px;
-        display: flex;
-        flex-direction: column; 
-    }
-    #figure1{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-    .HBarticle{
-        width: 10%;
-        height: 1%;
-        display: flex;
-        flex-direction: column;
-    }
+
     header{
         margin-top: 100px;
         margin-left: 15px;
