@@ -16,16 +16,7 @@ body{
     width: 93%;
     margin: auto;
 }
-.starscontent1{
-    position: relative;
-    right: 30px;
-    top: 30px;
-}
-.starscontent2{
-    position: relative;
-    right: 30px;
-    top: 10px;
-}
+
 .starsempty .fas{
     color: #D9D9D9;
 }
@@ -43,11 +34,13 @@ body{
 @media only screen and (min-width:377px) and (max-width:1025px)
  {
     body{
-        width: 500px;
+        width: 100%;
+        margin-left:0px ;
+        
     }
     .main{
-        width: 90%;
-        margin-left: -250px;
+        width: 100%;
+        margin: 0px;
     }
 
 }
@@ -109,6 +102,24 @@ ul{
         border-bottom:1px solid blue;
     }
 }
+@media only screen and (min-width:377px) and (max-width:1025px)
+ {  
+    .navigation{
+        padding-right: 15px;
+        
+    }
+    nav{
+        margin-left: 10px;
+        margin-right: 110px;
+    }
+    .tab{
+        margin-right: 55px;
+        display: flex;
+        justify-content: space-between;
+                      
+    }
+ }
+
 /*------------------------------------*\
   #HEADER
 \*------------------------------------*/
@@ -175,18 +186,10 @@ input{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    width: 75%;
+    width: 70%;
 }
-@media only screen and (max-width: 376px)
- {
-    #filter{
-        margin-left: -30px;
-    
-    }
-    .titlesfilter{
-        margin-left: -100px;
-    }
- }
+
+
 .underfilters:hover{
     box-shadow: 0 0 16px blue;
 
@@ -205,7 +208,7 @@ input{
     height: 40px;
     font-size: 17px;
     width: 100%;
-    height: 50px;
+    height: 35px;
     margin-right: 15px;
     color: black;
 }
@@ -219,9 +222,9 @@ input{
     background-color: #DEEBFF;
     padding: 5px;
     margin-left: -3px;
-    margin-right: 15px;
-    width: 45px;
-    height: 45px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -253,7 +256,7 @@ a:link{
 }
 .infotext{
     padding-left: 25px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .infoicons .fas {
     color:white;
@@ -264,6 +267,23 @@ a:link{
     right: 10px;
     font-size: 30px;
 }
+@media only screen and (min-width:377px) and (max-width:1025px)
+ {  
+    header{
+        margin-left: 10px;
+    }
+    #filter{
+        width: 90%;
+        
+    }
+    .under{
+        justify-content: space-between;
+        
+    }
+    #search{
+        width: 46%;
+    }
+ }
 @media only screen and (max-width: 376px)
  {
     #search{
@@ -280,6 +300,14 @@ a:link{
         margin-top: 100px;
         margin-left: 15px;
     }
+    #filter{
+        margin-left: -30px;
+    
+    }
+    .titlesfilter{
+        margin-left: -100px;
+    }
+     
 
 }
 
@@ -353,6 +381,10 @@ a:link{
     box-shadow: 0 0 16px blue;
 
 }
+.HBarticle2:hover{
+    box-shadow: 0 0 16px blue;
+
+}
 
 .infoHB{
     position: relative;
@@ -386,7 +418,7 @@ a:link{
  { 
     #hebergement{
         background-color:#f2f2f2;
-        border-radius: 30px;
+        border-radius: 0px;
         width: 68%;
         height: 675px;
         display: flex;
@@ -398,27 +430,46 @@ a:link{
         flex-wrap: nowrap;
         flex-direction: column;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: -5px;
     }
     .HBarticle{
         width: 90%;
-        height: 25%;
+        height: 28%;
         display: flex;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 39px;
     }
     .HBarticle2{
         display: none;
     }
     .imgHB{
-        height: 100px;
+        height: 100%;
+        width: 280px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
     }
     .HBtitle{
         margin-left: -30px;
+        margin-top: -15px;
+        margin-bottom: 15px;
     }
     .HBmore{
-        margin-top: 60px;
-        margin-left: -30px ;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+    .infoHB{
+        position: relative;
+        left: 290px;
+        bottom: 170px;
+        flex-wrap: wrap;
+    }
+    .infoHB H3{ 
+        width: 99%;
+        
+    }
+    .starsHB{
+        position: relative;
+        top: 45px;
     }
  }
 @media only screen and (max-width: 376px)
@@ -521,6 +572,16 @@ aside{
     display: flex;
     object-fit: cover;
 }
+.starscontent1{
+    position: relative;
+    right: 30px;
+    top: 30px;
+}
+.starscontent2{
+    position: relative;
+    right: 30px;
+    top: 10px;
+}   
 @media only screen and (max-width: 376px)
  {
     aside{
@@ -541,6 +602,24 @@ aside{
     aside{
         width: 50%;
         background-color: white;
+        
+    }
+    .contentpopularimg{
+        margin-bottom: 20px;
+        height: 79%;
+    }
+    #titlepopular{
+        margin-top: -15px;
+    }
+    .starscontent1{
+        position: relative;
+        top: 10px;
+    }
+    .starscontent2{
+        margin-right: 2px;
+    }
+    .imgpopular{
+        height: 141px;
     }
 
 }
@@ -698,8 +777,39 @@ aside{
 @media only screen and (min-width:377px) and (max-width:1025px)
  {
     .activity{
-        width: 1000px;
+        width: 100%;
+        margin: auto;
+        margin-left: 13px;
     }
+    .soloactivity{
+        box-shadow: 2px 2px 2px #f2f2f2;
+        border-radius: 30px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 97%;
+        box-shadow: 0 0 16px #0000002e;
+    }
+    .soloactivity2{
+        box-shadow: 2px 2px 2px #f2f2f2;
+        border-radius: 30px;
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: 20px;
+        height: 97%;
+        box-shadow: 0 0 16px #0000002e;
+    }
+    .sousgroupe11{
+        width: 100%;
+    }
+    .groupe2{
+        display: none;
+    }
+
  }
 @media only screen and (max-width: 376px)
  {
@@ -799,8 +909,11 @@ footer{
  }
  @media only screen and (min-width:377px) and (max-width:1025px)
  {
-    .containefooter{
+    footer{
         width: 100%;
+
+    }
+    .containefooter{
         margin-left: 150px;
        
     }
