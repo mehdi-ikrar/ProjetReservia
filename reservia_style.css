@@ -23,7 +23,7 @@ body{
 @media only screen and (max-width: 376px)
  {
     body{
-        width:375px;
+        width: 375px;
     }
     .main{
         width: 100%;
@@ -76,28 +76,29 @@ ul{
     bottom: 30px;
     width: 150px;
     padding-left: 15px;
-    padding-top:15px;
-    border-top: 15px solid #0065FC;
+    padding-top:10px;
+    border-top: 20px solid #0065FC;
+    font-size: 1.3em;
+    color: yellow;
 }
-.TABactivités:hover{
-    border-top: 4px solid blue;
+.TABactivity{
+    font-size: 1.3em;
 }
-.TABactivités:hover{
-    border-top: 4px solid #DEEBFF;
+.TABactivity:hover{
+    border-top: 4px solid #0065FC;
 }
-.login{
+.login p{
     color: #0065FC;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 @media only screen and (max-width: 376px)
  {
     .logo{
         position: relative;
-        right: 120px;
-    }
-    .TABhebergements{
-        border-top: none;
-        
-    }    
+        right: 115px;
+        margin: -35px;
+    } 
     .login{
         position: absolute;
         top:1px;
@@ -116,39 +117,38 @@ ul{
         width: 100%;
         
     }
-    .logo{
-        margin: -35px;
-    }
+
     .TABhebergements{
-        margin-top: 15px;
-        margin-bottom: -20px;
         border-bottom:5px solid blue;
         width: 50%;
-        padding-left: 35px;
+        position: relative;
+        top: 30px;
+        right: 152px;
+        padding-right: 125px;
+        border-top: none;
     }    
-    .TABactivités{
+    .TABactivity{
         border-bottom:5px solid #DEEBFF;
-        width: 50%;
-        margin-bottom: 10px;
-        padding-left:  40px;
+        position: relative;
+        top: 30px;
+        right: 155px;
+        padding-top: 10px;
+        padding-right: 65px;
+        padding-left: 35px;
     }
 }
 @media only screen and (min-width:377px) and (max-width:1025px)
  {  
-    .navigation{
-        padding-right: 15px;
-        margin-left: -10px;
-        
-    }
     nav{
         margin-left: 10px;
         margin-right: 120px;
     }
     .TABhebergements{
-        margin-right:40px;
+        position: relative;
+        right: 30px;
     }
     .login{
-        margin-left: 15px;
+        margin-left: 35px;
     }
 
  }
@@ -165,19 +165,19 @@ header {
 }
 h1{
     margin-bottom: -5px;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
-.subtitle{
+.subTITLEheader{
     font-size: 1.2em;
 }
 .logoimg {
     width: 10%;
 }
-#search{ 
+#searchCONTENT{ 
     color: white;
     display: flex;
-    width: 30.5%;
-    height: 60px;
+    width: 34.5%;
+    height: 55px;
     margin-bottom: 40px;
 }
 .searchbutton{
@@ -188,24 +188,28 @@ h1{
     border-top-right-radius: 20px;
     border-bottom-right-radius:20px ;
     height: 100%;
-    width: 10%;
+    width: 100%;
     display: flex;
     align-items: center;
     padding-left: 20px;
-    padding-right: 100px;
+}
+::placeholder{
+    color: black;
 }
 .maps{
     background-color: #f2f2f2;
     border-top-left-radius: 20px;
     border-bottom-left-radius:20px ;
-    height: 100%;
-    width: 100%;
+    height: 102%;
+    width: 10%;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    margin-top: -0.5px;    
 }
 .maps .fa-map-marker-alt{
     color: black;
+    font-size: 1.5em;
 }
 input{
     height: 100%;
@@ -214,16 +218,16 @@ input{
     padding-left:1em ; 
 }
 
-#filter{
+#FILTERcontent{
     margin-left: 10px;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    width: 70%;
+    width: 60%;
 }
 
 
-.underfilters:hover{
+.underFILTER:hover{
     box-shadow: 0 0 16px blue;
 
 }
@@ -231,11 +235,11 @@ input{
     font-size: 1.4em;
 }
 
-.underfilters{
-    border: 3px solid #D9D9D9;
+.underFILTER{
+    border: 2px solid #D9D9D9;
     border-radius: 50px;
     position: relative;
-    left: 30px;
+    left: 35px;
     display: flex;
     align-items: center;
     height: 40px;
@@ -245,19 +249,19 @@ input{
     margin-right: 15px;
     color: black;
 }
-.under{
+.underFILTERcontent{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.underfilters .fas{
+.underFILTER .fas{
     border-radius: 50px ;
     background-color: #DEEBFF;
     padding: 5px;
     margin-left: -3px;
     margin-right: 10px;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -267,7 +271,7 @@ a:link{
     text-decoration: none;
 
 }
-.underfilters p{
+.underFILTER p{
     font-weight: bold;
 }
 .info{
@@ -275,7 +279,7 @@ a:link{
     margin-left: 20px;
     margin-bottom: 25px;
 }
-.infoicons{
+.infoICON{
     font-size: 20px;
     border-radius: 50px;
     height: 18px;
@@ -291,7 +295,7 @@ a:link{
     padding-left: 25px;
     font-size: 1.2em;
 }
-.infoicons .fas {
+.infoICON .fas {
     color:white;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
@@ -300,52 +304,85 @@ a:link{
     right: 10px;
     font-size: 30px;
 }
+.fa-search{
+    display: none;
+}
 @media only screen and (min-width:377px) and (max-width:1025px)
  {  
     header{
         margin-left: 10px;
     }
-    #filter{
+    #FILTERcontent{
         width: 90%;
         
     }
-    .under{
+    .underFILTERcontent{
         justify-content: space-between;
         
     }
-    #search{
+    #searchCONTENT{
         width: 46%;
     }
  }
 @media only screen and (max-width: 376px)
- {
-    #search{
-        width:% ;
+ {  
+    h1{
+        flex-wrap: wrap;
     }
-    #filter{
+    #searchCONTENT{
+        width:530px;
+    }
+    #searchCONTENT p{
+        display: none;
+    }
+    .searchbutton{
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        position: relative;
+        right: 10px;
+    }
+    .fa-search{
+        display: block;
+        color: white;
+    }
+    #FILTERcontent{
         display: flex;
         flex-direction: column;
+        width: 90%;
+        height: 250px;
+        
     }
-    .under{
-        flex-wrap: wrap;
+    .titlesfilter{
+        padding-right: 85px;
+        margin-bottom: -10px;
+    }
+    .maps{
+        font-size: 1.2em;
+        
+    }
+    .underFILTERcontent{
+        flex-wrap:  wrap;
+        height: 100%;
     }
     header{
         margin-top: 100px;
         margin-left: 15px;
     }
-    #filter{
+    #FILTERcontent{
         margin-left: -30px;
     
     }
     .titlesfilter{
         margin-left: -100px;
     }
-     
+    
 
-}
+ }
 
 /*------------------------------------*\
-  #SECTION HEBERGEMENTS
+  #SECTION hebergements
 \*------------------------------------*/
 #body{
     display: flex;
@@ -365,6 +402,7 @@ a:link{
     #body{
         display: flex;
         flex-direction: column-reverse;
+        width: 375px;
     }
 
 }
@@ -379,7 +417,7 @@ a:link{
 }
 
 .HBtitle{
-    padding-left: 50px;
+    padding-left: 45px;
 }
 .HBmore{
     padding-left: 50px;
@@ -399,7 +437,7 @@ a:link{
     border-radius: 30px;
     padding: 5px;
     margin-right: 55px;
-    box-shadow: 0 0 16px #0000002e;  
+    box-shadow: 0 0 16px #0000002e;
 }
 .HBarticle2{
     width: 27%;
@@ -423,6 +461,7 @@ a:link{
     position: relative;
     bottom:15px;
     left: 15px;
+    color: black;
 }
 .starsHB{
     position: relative;
@@ -510,7 +549,7 @@ a:link{
     #hebergement{
         border-radius: 30px;
         width: 100%;
-        height: 1500px;
+        height: 1800px;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
@@ -522,11 +561,11 @@ a:link{
         flex-wrap: nowrap;
         flex-direction: column;
         margin-left: 0px;
-        margin-top: 50px;
+        margin-top: -15px;
     }
     .HBarticle{
         width: 90%;
-        height: 15%;
+        height: 14%;
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -534,21 +573,24 @@ a:link{
     }
     .HBarticle2{
         width: 90%;
-        height: 15%;
+        height: 14%;
         display: flex;
         flex-direction: column;
         margin: auto;
         margin-top: 30px;
     }
     .imgHB{
-        height: 100px;
+        height: 120px;
     }
     .HBtitle{
         margin-left: -30px;
     }
     .HBmore{
-        margin-top: 60px;
+        margin-top: 35px;
         margin-left: -30px ;
+    }
+    .starsHB{
+        font-size: 0.8em;
     }
  }
 /*------------------------------------*\
@@ -569,9 +611,14 @@ aside{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-right: 35px;
+    margin-bottom: -20px;
     align-items: center;
+}
+.fa-chart-line{
+    color: black;
+    font-size: 1.5em;
 }
 .contentpopularimg{ 
     padding: 5px;
@@ -585,13 +632,14 @@ aside{
 .txtpopular{
     position: relative;
     bottom: 15px;
-    left: 10px;  
+    left: 10px;
+    width: 99%;  
 }
 .pricepopular{
     position: relative;
     bottom: 10px;
 }
-.txtpopular h4:visited{
+.txtpopular {
     color: black;
 }
 .contentpopularimg:hover{
@@ -608,7 +656,7 @@ aside{
 .starscontent1{
     position: relative;
     right: 30px;
-    top: 30px;
+    top: 10px;
 }
 .starscontent2{
     position: relative;
@@ -623,12 +671,29 @@ aside{
     }
     .starscontent1{
         position: relative;
-        top: 0px;
+        top: 15px;
+        font-size: 0.8em;
     }
     .starscontent2{
         position: relative;
-        top: -15px;
+        top: 15px;
+        font-size: 0.8em;
     }
+    .contentpopularimg{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .contentpopularimg{
+        height: 150px;
+    }
+    .imgpopular{
+        width: 140px;
+    }
+    .infopopular{
+        width: 60%;
+    }
+    
  }
  @media only screen and (min-width:377px) and (max-width:1025px)
  {
@@ -646,10 +711,12 @@ aside{
     }
     .starscontent1{
         position: relative;
-        top: 10px;
+        top: 0px;
     }
     .starscontent2{
         margin-right: 2px;
+        position: relative;
+        top: 0px;
     }
     .imgpopular{
         height: 141px;
@@ -660,7 +727,7 @@ aside{
 /*------------------------------------*\
   #SECTION activity
 \*------------------------------------*/
-.activity{
+#activity{
     width: 100%;
     height: 550px;
     margin-top: 50px;
@@ -728,6 +795,8 @@ aside{
     box-shadow: 2px 2px 2px #f2f2f2;
     border-radius: 30px;
     box-shadow: 0 0 16px #0000002e;
+    height: 230px;
+    margin-bottom: 17px;
 }
 .sousgroupe12:hover{
     box-shadow: 0 0 16px blue;
@@ -735,7 +804,7 @@ aside{
 .sousgroupe21{
     box-shadow: 2px 2px 2px #f2f2f2;
     border-radius: 30px;
-    box-shadow: 0 0 16px #0000002e;   
+    box-shadow: 0 0 16px #0000002e;
 }
 .sousgroupe21:hover{
     box-shadow: 0 0 16px blue;
@@ -744,6 +813,8 @@ aside{
     box-shadow: 2px 2px 2px #f2f2f2;
     border-radius: 30px;
     box-shadow: 0 0 16px #0000002e;
+    height: 280px;
+    margin-bottom: 17px;
 }
 .sousgroupe22:hover{
     box-shadow: 0 0 16px blue;
@@ -768,7 +839,7 @@ aside{
 }
 .imggroupe12{
     width: 100%;
-    height: 180px;
+    height: 165px;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     object-fit: cover;
@@ -798,6 +869,7 @@ aside{
     bottom: 3px;
     font-size: 1.2em;
     font-weight: bold;
+    color: black;
 }
 .GRPactivitydescription{
     position: relative;
@@ -806,10 +878,11 @@ aside{
     margin-top: 30px;
     font-weight: bold;
     font-size: 1.1em;
+    color: black;
 }
 @media only screen and (min-width:377px) and (max-width:1025px)
  {
-    .activity{
+    #activity{
         width: 100%;
         margin: auto;
         margin-left: 13px;
@@ -850,9 +923,9 @@ aside{
         display: flex;
         flex-direction: column;
     }
-    .activity{
+    #activity{
         width: 375px;
-        margin-top: -90px;
+        margin-top: -200px;
         margin-left: 15px;
     }
     .soloactivity{
@@ -931,6 +1004,7 @@ footer{
 @media only screen and (max-width: 376px)
  {
     footer{
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-top: 850px;
