@@ -79,9 +79,13 @@ ul{
     padding-top:10px;
     border-top: 20px solid #0065FC;
     font-size: 1.3em;
-    color: yellow;
 }
-.TABactivity{
+.TABhebergements p{
+    color: #0065FC;
+    
+}
+.TABactivity p{
+    color:black;
     font-size: 1.3em;
 }
 .TABactivity:hover{
@@ -287,7 +291,7 @@ a:link{
     font-size: 1.2em;
     display: flex;
     align-items: center;
-    background-color:blue ;
+    background-color:#0065FC ;
     display: flex;
     align-self: center;
 }
@@ -384,14 +388,14 @@ a:link{
 /*------------------------------------*\
   #SECTION hebergements
 \*------------------------------------*/
-#body{
+#TOPbody{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 @media only screen and (min-width:377px) and (max-width:1025px)
  {
-    #body{
+    #TOPbody{
         width: 1025px;
         display: flex;
     }
@@ -399,7 +403,7 @@ a:link{
  }
 @media only screen and (max-width: 376px)
  {
-    #body{
+    #TOPbody{
         display: flex;
         flex-direction: column-reverse;
         width: 375px;
@@ -1025,7 +1029,3 @@ footer{
        
     }
  }
-
-/*------------------------------------*\
-  #FOOTER
-\*------------------------------------*/
