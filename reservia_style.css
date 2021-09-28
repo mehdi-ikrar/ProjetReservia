@@ -874,9 +874,11 @@ aside{
 @media only screen and (min-width:377px) and (max-width:1025px)
  {
     #activity{
-        width: 100%;
-        margin: auto;
-        margin-left: 13px;
+        width: 95%;
+        margin-left: 40px;
+    }
+    .titleactivity{
+       margin-left: 15px; 
     }
     .soloactivity{
         box-shadow: 2px 2px 2px #f2f2f2;
@@ -899,6 +901,9 @@ aside{
         left: 20px;
         height: 97%;
         box-shadow: 0 0 16px #0000002e;
+    }
+    .soloactivity2 p{
+        font-size: 0.9em;
     }
     .sousgroupe11{
         width: 100%;
