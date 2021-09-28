@@ -910,14 +910,19 @@ aside{
  }
 @media only screen and (max-width: 376px)
  {
-    .activityfigure{
-        display: flex;
-        flex-direction: column; 
-    }
+
     #activity{
         width: 375px;
         margin-top: -200px;
-        margin-left: 15px;    
+            
+    }
+    .titleactivity{
+        margin-left: 15px;
+    }
+    .activityfigure{
+        display: flex;
+        flex-direction: column; 
+        width: 96%;
     }
     .soloactivity{
         width: 92%;
@@ -939,7 +944,7 @@ aside{
     .sousgroupe11{
         margin-top: 35px;
         margin-left: 30px;
-        width: 90%;
+        width: 92%;
         height: 180px;
     }
     .imggroupe11{
@@ -948,23 +953,27 @@ aside{
     .sousgroupe12{
         margin-bottom: 150px;
         margin-left: 30px;
-        width: 90%;
+        width: 92%;
         height: 180px;
     }
     .imggroupe12{
         height: 75%;
     }
+    .groupe2{
+        width: 100%;
+    }
     .sousgroupe21{
-        width: 340px;
+        width: 92%;
         height: 180px;
         margin-top: 35px;
     }
     .imggroupe21{
         height: 75%;
     }
+
     .sousgroupe22{
         margin-top: 35px;
-        width: 340px;
+        width: 92%;
         height: 180px;
     }
     .imggroupe22{
@@ -1003,8 +1012,7 @@ footer{
         margin-top: 850px;
     }
     .containefooter{
-        position: relative;
-        left: 10px;
+        margin-left: 140px;
     }
  }
  @media only screen and (min-width:377px) and (max-width:1025px)
