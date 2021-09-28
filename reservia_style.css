@@ -53,6 +53,7 @@ nav{
     height: 50px; 
     margin-top: 39px;
 }
+
 .logo{
     height: 100%;
 }
@@ -700,6 +701,7 @@ aside{
     }
     #titlepopular{
         margin-top: -15px;
+        margin-bottom: 7px;
     }
     .starscontent1{
         position: relative;
