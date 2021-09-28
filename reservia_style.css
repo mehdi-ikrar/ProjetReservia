@@ -922,10 +922,11 @@ aside{
     .activityfigure{
         display: flex;
         flex-direction: column; 
-        width: 96%;
+        width: 90%;
+        margin: auto;
     }
     .soloactivity{
-        width: 92%;
+        width: 100%;
         height: 180px;
     }
     .imgactivity{
@@ -933,7 +934,7 @@ aside{
         height: 75%;
     }
     .soloactivity2{
-        width: 91%;
+        width: 100%;
         margin-top: -115px;
         margin-left: -20px;
         height: 180px;
@@ -944,7 +945,7 @@ aside{
     .sousgroupe11{
         margin-top: 35px;
         margin-left: 30px;
-        width: 92%;
+        width: 100%;
         height: 180px;
     }
     .imggroupe11{
@@ -953,7 +954,7 @@ aside{
     .sousgroupe12{
         margin-bottom: 150px;
         margin-left: 30px;
-        width: 92%;
+        width: 100%;
         height: 180px;
     }
     .imggroupe12{
@@ -963,7 +964,7 @@ aside{
         width: 100%;
     }
     .sousgroupe21{
-        width: 92%;
+        width: 100%;
         height: 180px;
         margin-top: 35px;
     }
@@ -973,7 +974,7 @@ aside{
 
     .sousgroupe22{
         margin-top: 35px;
-        width: 92%;
+        width: 100%;
         height: 180px;
     }
     .imggroupe22{
