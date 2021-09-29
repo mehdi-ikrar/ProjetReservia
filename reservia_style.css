@@ -390,12 +390,20 @@ a:link{
     }
 
  }
+@media only screen and (min-width:377px) and (max-width:800px)
+ { 
+    #TOPbody{
+        width: 100%;
+        display: flex;
+    }
+
+ }
 @media only screen and (max-width: 376px)
  {
     #TOPbody{
         display: flex;
         flex-direction: column-reverse;
-        width: 375px;
+        width: 100%;
     }
 
 }
@@ -461,6 +469,11 @@ a:link{
     bottom: 25px;
     right: 40px;
 }
+.starsHB1{
+    position: relative;
+    bottom: 25px;
+    right: 40px;
+}
 .priceHB{
     position: relative;
     bottom: 15px;
@@ -479,7 +492,8 @@ a:link{
     border-top-left-radius: 30px ;
     border-top-right-radius: 30px ;
 }
-@media only screen and (min-width:377px) and (max-width:1025px)
+
+@media only screen and (min-width:800px) and (max-width:1025px)
  { 
     #hebergement{
         background-color:#f2f2f2;
@@ -536,6 +550,73 @@ a:link{
         position: relative;
         top: 45px;
     }
+    .starsHB1{
+        position: relative;
+        top: 45px;
+    }
+ }
+ @media only screen and (min-width:377px) and (max-width:800px)
+ { 
+    #hebergement{
+        background-color:#f2f2f2;
+        border-radius: 0px;
+        width: 68%;
+        height: 675px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #figure1{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: -5px;
+    }
+    .HBarticle{
+        width: 90%;
+        height: 28%;
+        display: flex;
+        margin: auto;
+        margin-top: 39px;
+    }
+    .HBarticle2{
+        display: none;
+    }
+    .imgHB{
+        height: 100%;
+        width: 200px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
+    }
+    .HBtitle{
+        margin-left: -30px;
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+    .HBmore{
+        margin-top: 15px;
+        margin-left: -20px;
+ 
+    }
+    .infoHB{
+        position: relative;
+        left: 210px;
+        bottom: 170px;
+        flex-wrap: wrap;
+    }
+    .infoHB H3{ 
+        width: 99%;
+        
+    }
+    .starsHB{
+        position: relative;
+        top: 45px;
+    }
+    .starsHB1{
+        position: relative;
+        top: 25px;
+    }
  }
 @media only screen and (max-width: 376px)
  { 
@@ -583,6 +664,9 @@ a:link{
         margin-left: -30px ;
     }
     .starsHB{
+        font-size: 0.8em;
+    }
+    .starsHB1{
         font-size: 0.8em;
     }
  }
@@ -688,6 +772,7 @@ aside{
     }
     
  }
+ 
  @media only screen and (min-width:377px) and (max-width:1025px)
  {
     aside{
