@@ -8,7 +8,7 @@ body {
     color: #0065FC;
 }
 body{
-    width: 1690px;
+    width: 100%;
     margin: auto;
 }
 
@@ -20,17 +20,17 @@ body{
 .starsempty .fas{
     color: #D9D9D9;
 }
-@media only screen and (max-width: 376px)
+@media only screen and (max-width: 668px)
  {
     body{
-        width: 375px;
+        width: 100%;
     }
     .main{
         width: 100%;
     }
 
 }
-@media only screen and (min-width:377px) and (max-width:1025px)
+@media only screen and (min-width:669px) and (max-width:1025px)
  {
     body{
         width: 100%;
@@ -95,7 +95,8 @@ ul{
     font-size: 1.3em;
     font-weight: bold;
 }
-@media only screen and (max-width: 376px)
+
+@media only screen and (max-width: 668px)
  {
     .logo{
         position: relative;
@@ -129,7 +130,40 @@ ul{
         padding-left: 35px;
     }
 }
-@media only screen and (min-width:377px) and (max-width:1025px)
+@media only screen and (min-width:600px) and (max-width:668px)
+ {
+    .logo{
+        position: relative;
+        right: 250px;
+    }
+    .TABhebergements{
+        position: relative;
+        right: 254px;
+        width: 100%;
+
+    }
+    .TABhebergements  p{
+        margin-left: 80px;
+        margin-right: 150px;
+
+    }
+    .TABactivity{
+        position: relative;
+        right: 253px;
+        
+    }
+    .TABactivity p{
+        margin-left: 100px;
+        margin-right: 45px;
+    }
+ }
+@media only screen and (min-width:669px) and (max-width:800px)
+ {
+    nav{
+        width: 70%;
+    }
+ }
+@media only screen and (min-width:669px) and (max-width:1025px)
  {  
     nav{
         margin-left: 10px;
@@ -142,8 +176,7 @@ ul{
     .login{
         margin-left: 35px;
     }
-
- }
+}
 
 /*------------------------------------*\
   #HEADER
@@ -299,7 +332,7 @@ a:link{
 .fa-search{
     display: none;
 }
-@media only screen and (min-width:377px) and (max-width:1025px)
+@media only screen and (min-width:669px) and (max-width:1025px)
  {  
     header{
         margin-left: 10px;
@@ -316,7 +349,23 @@ a:link{
         width: 46%;
     }
  }
-@media only screen and (max-width: 376px)
+@media only screen and (min-width:669px) and (max-width:800px)
+ {
+    h1{
+        font-size: 1.5em;        
+    }
+    .underFILTER p{
+        font-size: 0.75em;
+    }
+    .titlesfilter{
+        font-size: 1.3em;
+    }
+    #searchCONTENT{
+        width: 80%;
+    }
+ }
+
+@media only screen and (max-width: 668px)
  {  
     h1{
         flex-wrap: wrap;
@@ -334,7 +383,7 @@ a:link{
         border-bottom-right-radius: 15px;
         border-top-right-radius: 15px;
         position: relative;
-        right: 10px;
+        right: 15px;
     }
     .fa-search{
         display: block;
@@ -373,6 +422,23 @@ a:link{
     
 
  }
+@media only screen and (min-width:600px) and (max-width:668px)
+ {
+    h1{
+        font-size: 1.5em;
+    }
+    .maps{
+        width: 60px;
+
+    }
+    .titlesfilter{
+        margin-right:250px;
+    }
+    #FILTERcontent{
+        height: 200px;
+    }
+
+ }
 
 /*------------------------------------*\
   #SECTION hebergements
@@ -382,7 +448,7 @@ a:link{
     flex-direction: row;
     justify-content: space-between;
 }
-@media only screen and (min-width:377px) and (max-width:1025px)
+@media only screen and (min-width:669px) and (max-width:1025px)
  {
     #TOPbody{
         width: 100%;
@@ -390,15 +456,8 @@ a:link{
     }
 
  }
-@media only screen and (min-width:377px) and (max-width:800px)
- { 
-    #TOPbody{
-        width: 100%;
-        display: flex;
-    }
 
- }
-@media only screen and (max-width: 376px)
+@media only screen and (max-width: 668px)
  {
     #TOPbody{
         display: flex;
@@ -493,7 +552,7 @@ a:link{
     border-top-right-radius: 30px ;
 }
 
-@media only screen and (min-width:800px) and (max-width:1025px)
+@media only screen and (min-width:669px) and (max-width:1025px)
  { 
     #hebergement{
         background-color:#f2f2f2;
@@ -555,7 +614,7 @@ a:link{
         top: 45px;
     }
  }
- @media only screen and (min-width:377px) and (max-width:800px)
+ @media only screen and (min-width:669px) and (max-width:800px)
  { 
     #hebergement{
         background-color:#f2f2f2;
@@ -618,7 +677,7 @@ a:link{
         top: 25px;
     }
  }
-@media only screen and (max-width: 376px)
+@media only screen and (max-width: 668px)
  { 
     #hebergement{
         border-radius: 30px;
@@ -670,6 +729,7 @@ a:link{
         font-size: 0.8em;
     }
  }
+
 /*------------------------------------*\
   #ASIDE
 \*------------------------------------*/
@@ -740,7 +800,7 @@ aside{
     right: 30px;
     top: 10px;
 }   
-@media only screen and (max-width: 376px)
+@media only screen and (max-width: 668px)
  {
     aside{
         width: 100%;
@@ -772,8 +832,29 @@ aside{
     }
     
  }
+ @media only screen and (min-width:669px) and (max-width:800px)
+ {
+    .imgpopular{
+        width: 45%;
+    }
+    .infopopular{
+        width: 60%;
+        height: 110%;
+    }
+    .txtpopular{
+        font-size: 0.8em;
+    }
+    .starscontent1{
+        margin-top: 38px;
+        
+    }
+    .starscontent2{
+        margin-top: 38px;
+        
+    }
+ }
  
- @media only screen and (min-width:377px) and (max-width:1025px)
+ @media only screen and (min-width:669px) and (max-width:1025px)
  {
     aside{
         width: 50%;
@@ -802,6 +883,21 @@ aside{
     }
 
 }
+@media only screen and (min-width:600px) and (max-width:668px)
+ {
+    .imgpopular{
+        width: 240px;
+    }
+    .starscontent2{
+        position: relative;
+        top: 35px;
+    }
+    .starscontent1{
+        position: relative;
+        top: 35px;
+    }
+ }
+ 
 
 /*------------------------------------*\
   #SECTION activity
@@ -958,7 +1054,7 @@ aside{
     font-size: 1.1em;
     color: black;
 }
-@media only screen and (min-width:377px) and (max-width:1025px)
+@media only screen and (min-width:669px) and (max-width:1025px)
  {
     #activity{
         width: 95%;
@@ -1000,11 +1096,33 @@ aside{
     }
 
  }
-@media only screen and (max-width: 376px)
+ @media only screen and (min-width:669px) and (max-width:800px)
+ {
+    .soloactivity2{
+        width: 80%;
+    }
+
+    .soloactivity2 img{
+        margin-bottom: -7px;
+    }
+    #activity{ 
+        width: 94%;
+        margin-bottom: 450px;
+    }
+    .groupe1{
+        position: relative;
+        right: 12px;
+        height: 100%;
+    }
+    .activityfigure{
+        height: 100%;
+    }
+ }
+@media only screen and (max-width: 668px)
  {
 
     #activity{
-        width: 375px;
+        width: 100%;
         margin-top: -200px;
             
     }
@@ -1097,7 +1215,7 @@ footer{
     color: black;
     font-size: 1.1em;
 }
-@media only screen and (max-width: 376px)
+@media only screen and (max-width: 668px)
  {
     footer{
         display: flex;
@@ -1108,7 +1226,20 @@ footer{
         margin-left: 140px;
     }
  }
- @media only screen and (min-width:377px) and (max-width:1025px)
+
+@media only screen and (min-width:669px) and (max-width:800px)
+  {
+    footer{
+        position: relative;
+        bottom: 270px;
+    }
+    .containefooter{
+        position: relative;
+        right: 75px;
+       
+    }
+  }
+@media only screen and (min-width:669px) and (max-width:1025px)
  {
     footer{
         width: 100%;
